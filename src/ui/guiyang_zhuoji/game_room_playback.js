@@ -169,9 +169,9 @@ GameRoomPlaybackLayer = cc.Layer.extend({
 
 
         if (Math.abs(height / width - 0.75) < 0.1) {
-            res.game_room_csd = res.game_room_pad_csd;
-            res.game_room2_csd = res.game_room2_pad_csd;
-            res.game_room3_csd = res.game_room3_pad_csd;
+            //res.game_room_csd = res.game_room_pad_csd;
+            //res.game_room2_csd = res.game_room2_pad_csd;
+            //res.game_room3_csd = res.game_room3_pad_csd;
         }
         if (jsReplayServer.getShareInstance().UserManager.m_RoomData.maxPlayer == 4) {
             uiNode = ccs.load(res.game_room_csd);
