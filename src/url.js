@@ -1,0 +1,1 @@
+share_url = "http://gymj.331wan.com/gymj/share/share.html?X-Lvan-App-Key=8698b2228288b46379d14e20f42d2844&X-Lvan-Platform=1&X-Lvan-Channel=";

@@ -1,0 +1,27 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 6,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : true,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","cocostudio"],
+
+    "jsList" : [
+	    "src/network/js_network_manager.js",
+	    "src/root_scene.js",
+	    "src/resource.js",
+	    "src/ui/guiyang_zhuoji/game_room_playback.js",
+		"src/ui/guiyang_zhuoji/game_room.js",
+		"src/ui/guiyang_zhuoji/create_room.js",
+		"src/logic/replay_server.js",
+        "src/app.js",
+		"src/ui/guiyang_zhuoji/gov_ntf_dialog.js",
+		"src/ui/common_dialog.js",
+		"src/AssetsManager.js"
+    ]
+}

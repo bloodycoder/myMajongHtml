@@ -1,0 +1,11 @@
+{
+    "packageUrl" : "http://gymj.331wan.com/gymj/hotfix/android/res",
+    "remoteManifestUrl" : "http://gymj.331wan.com/gymj/hotfix/android/res/project.manifest",
+    "remoteVersionUrl" : "http://gymj.331wan.com/gymj/hotfix/android/res/version.manifest",
+    "version" : "1.0.0",
+    "groupVersions" : {
+    },
+    "engineVersion" : "3.0 rc0",
+    "searchPaths" : [
+    ]
+}

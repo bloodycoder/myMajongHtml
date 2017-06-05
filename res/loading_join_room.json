@@ -1,0 +1,823 @@
+{
+  "ID": "0e8753a8-efd6-47f7-94c6-75e96030af07",
+  "Version": "3.10.0.0",
+  "Name": "loading_join_room",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 51,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -494183928,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 98.3278,
+                "Y": -9.28,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 98.3278,
+                "Y": -9.28,
+                "FrameIndex": 41,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 98.3278,
+                "Y": 0.72,
+                "FrameIndex": 46,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 98.3278,
+                "Y": -9.28,
+                "FrameIndex": 51,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -494183928,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 41,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 46,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 51,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -494183928,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 41,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 46,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 51,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1593551344,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 88.3279,
+                "Y": -9.28,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 88.3279,
+                "Y": -9.28,
+                "FrameIndex": 33,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 88.3278,
+                "Y": 0.72,
+                "FrameIndex": 38,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 88.3279,
+                "Y": -9.28,
+                "FrameIndex": 43,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1593551344,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 33,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 38,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 43,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1593551344,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 33,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 38,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 43,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 884416168,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 78.3522,
+                "Y": -9.28,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 78.3522,
+                "Y": -9.28,
+                "FrameIndex": 25,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 78.3522,
+                "Y": 0.72,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 78.3522,
+                "Y": -9.28,
+                "FrameIndex": 35,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 884416168,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 25,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 35,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 884416168,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 25,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 35,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 799,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/animation/loading/loading_di.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 163,
+            "Scale9OriginY": 20,
+            "Scale9Width": 168,
+            "Scale9Height": 23,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -4.3441,
+              "Y": -0.3006
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0033,
+              "Y": -0.0003
+            },
+            "PreSize": {
+              "X": 0.3703,
+              "Y": 0.0629
+            },
+            "LeftMargin": -251.3441,
+            "RightMargin": 1091.3441,
+            "TopMargin": 969.8006,
+            "BottomMargin": -31.8006,
+            "Tag": 11,
+            "ActionTag": -2052142834,
+            "Size": {
+              "X": 494.0,
+              "Y": 63.0
+            },
+            "Name": "Image_4",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/animation/loading/loading_dian.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 1,
+            "Scale9OriginY": 1,
+            "Scale9Width": 2,
+            "Scale9Height": 2,
+            "AnchorPoint": {
+              "ScaleX": 0.2063,
+              "ScaleY": 0.5814
+            },
+            "Position": {
+              "X": 98.3278,
+              "Y": 0.72
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0737,
+              "Y": 0.0007
+            },
+            "PreSize": {
+              "X": 0.0045,
+              "Y": 0.005
+            },
+            "LeftMargin": 97.09,
+            "RightMargin": 1230.91,
+            "TopMargin": 998.187,
+            "BottomMargin": -2.187,
+            "Tag": 800,
+            "ActionTag": -494183928,
+            "Size": {
+              "X": 6.0,
+              "Y": 5.0
+            },
+            "Name": "Image_639_0_0",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/animation/loading/loading_dian.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 1,
+            "Scale9OriginY": 1,
+            "Scale9Width": 2,
+            "Scale9Height": 2,
+            "AnchorPoint": {
+              "ScaleX": 0.2063,
+              "ScaleY": 0.5814
+            },
+            "Position": {
+              "X": 88.3279,
+              "Y": -9.28
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0662,
+              "Y": -0.0093
+            },
+            "PreSize": {
+              "X": 0.0045,
+              "Y": 0.005
+            },
+            "LeftMargin": 87.09,
+            "RightMargin": 1240.9099,
+            "TopMargin": 1008.187,
+            "BottomMargin": -12.187,
+            "Tag": 801,
+            "ActionTag": 1593551344,
+            "Size": {
+              "X": 6.0,
+              "Y": 5.0
+            },
+            "Name": "Image_639_0",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/animation/loading/loading_dian.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 1,
+            "Scale9OriginY": 1,
+            "Scale9Width": 2,
+            "Scale9Height": 2,
+            "AnchorPoint": {
+              "ScaleX": 0.21,
+              "ScaleY": 0.5814
+            },
+            "Position": {
+              "X": 78.3522,
+              "Y": -9.28
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0587,
+              "Y": -0.0093
+            },
+            "PreSize": {
+              "X": 0.0045,
+              "Y": 0.005
+            },
+            "LeftMargin": 77.0922,
+            "RightMargin": 1250.9078,
+            "TopMargin": 1008.187,
+            "BottomMargin": -12.187,
+            "Tag": 802,
+            "ActionTag": 884416168,
+            "Size": {
+              "X": 6.0,
+              "Y": 5.0
+            },
+            "Name": "Image_639",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/animation/loading/loading_jian.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 10,
+            "Scale9OriginY": 10,
+            "Scale9Width": 1,
+            "Scale9Height": 3,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 60.999,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0457,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0157,
+              "Y": 0.023
+            },
+            "LeftMargin": 50.499,
+            "RightMargin": 1262.501,
+            "TopMargin": 989.5,
+            "BottomMargin": -11.5,
+            "Tag": 809,
+            "ActionTag": 867456704,
+            "Size": {
+              "X": 21.0,
+              "Y": 23.0
+            },
+            "Name": "Image_10",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/animation/loading/loading_fang.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 10,
+            "Scale9OriginY": 10,
+            "Scale9Width": 2,
+            "Scale9Height": 3,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 35.9794,
+              "Y": 0.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.027,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0172,
+              "Y": 0.022
+            },
+            "LeftMargin": 24.4794,
+            "RightMargin": 1286.5206,
+            "TopMargin": 989.9999,
+            "BottomMargin": -10.9999,
+            "Tag": 803,
+            "ActionTag": 906305731,
+            "Size": {
+              "X": 23.0,
+              "Y": 22.0
+            },
+            "Name": "Image_638",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/animation/loading/loading_ru.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 10,
+            "Scale9OriginY": 10,
+            "Scale9Width": 3,
+            "Scale9Height": 2,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 8.99,
+              "Y": 0.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0067,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0172,
+              "Y": 0.022
+            },
+            "LeftMargin": -2.51,
+            "RightMargin": 1313.51,
+            "TopMargin": 989.9999,
+            "BottomMargin": -10.9999,
+            "Tag": 804,
+            "ActionTag": 49414740,
+            "Size": {
+              "X": 23.0,
+              "Y": 22.0
+            },
+            "Name": "Image_637",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/animation/loading/loading_jia.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 10,
+            "Scale9OriginY": 10,
+            "Scale9Width": 3,
+            "Scale9Height": 2,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -17.7303,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0133,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0172,
+              "Y": 0.022
+            },
+            "LeftMargin": -29.2303,
+            "RightMargin": 1340.2302,
+            "TopMargin": 990.0,
+            "BottomMargin": -11.0,
+            "Tag": 805,
+            "ActionTag": -1564571945,
+            "Size": {
+              "X": 23.0,
+              "Y": 22.0
+            },
+            "Name": "Image_3",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/animation/loading/loading_zai.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 10,
+            "Scale9OriginY": 10,
+            "Scale9Width": 3,
+            "Scale9Height": 3,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -44.9011,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0337,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0172,
+              "Y": 0.023
+            },
+            "LeftMargin": -56.4011,
+            "RightMargin": 1367.4011,
+            "TopMargin": 989.5,
+            "BottomMargin": -11.5,
+            "Tag": 806,
+            "ActionTag": -746153665,
+            "Size": {
+              "X": 23.0,
+              "Y": 23.0
+            },
+            "Name": "Image_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/animation/loading/loading_zheng.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 10,
+            "Scale9OriginY": 10,
+            "Scale9Width": 3,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -71.001,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0532,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0172,
+              "Y": 0.021
+            },
+            "LeftMargin": -82.501,
+            "RightMargin": 1393.501,
+            "TopMargin": 990.5,
+            "BottomMargin": -10.5,
+            "Tag": 807,
+            "ActionTag": 822294213,
+            "Size": {
+              "X": 23.0,
+              "Y": 21.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 1001.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "res/animation/loading/loading_di.png",
+        "res/animation/loading/loading_dian.png",
+        "res/animation/loading/loading_fang.png",
+        "res/animation/loading/loading_jia.png",
+        "res/animation/loading/loading_jian.png",
+        "res/animation/loading/loading_ru.png",
+        "res/animation/loading/loading_zai.png",
+        "res/animation/loading/loading_zheng.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
