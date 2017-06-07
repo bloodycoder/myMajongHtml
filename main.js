@@ -73,7 +73,8 @@ cc.game.onStart = function(){
     // cc.view.setOrientation(cc.ORIENTATION_PORTRAIT);
 
     // Setup the resolution policy and design resolution size
-    cc.view.setDesignResolutionSize(1330, 950, cc.ResolutionPolicy.SHOW_ALL);
+	// 1330, 950
+    cc.view.setDesignResolutionSize(960, 640, cc.ResolutionPolicy.SHOW_ALL);
 
     // The game will be resized when browser size change
     cc.view.resizeWithBrowserSize(true);
@@ -83,11 +84,10 @@ cc.game.onStart = function(){
 	//here add web access  picard
 	var GetReplayScript = document.createElement("script");
 	GetReplayScript.type = "text/javascript";
-    //GetReplayScript.src = "http://127.0.0.1:8000/majong/";
+    GetReplayScript.src = "http://127.0.0.1:8000/majong/";
 	replayId ="2454";
 	window.alert("现在为您播放"+replayId);
-	GetReplayScript.src = "http://123.206.135.171/zzmj/php/replaydata.php?id="+replayId;
-	//GetReplayScript.src = "http://127.0.0.1:8000?method=setReplayData&id=129";
+	//GetReplayScript.src = "http://123.206.135.171/zzmj/php/replaydata.php?id="+replayId;
 	document.getElementsByTagName("HEAD")[0].appendChild(GetReplayScript);
 	var auto_run_game = function(){
 		jsReplayServer.getShareInstance().onLogicUpdate(1000);
@@ -98,7 +98,7 @@ cc.game.onStart = function(){
 		myData = window.replayData;		
         jsReplayServer.getShareInstance().LoadReplayData(myData,"as");
 		jsReplayServer.getShareInstance().Play();
-		auto_run_game();;
+		auto_run_game();
 		
 	//gameScene = new GameRoomPlaybackLayer();
     //cc.director.runScene(gameScene);

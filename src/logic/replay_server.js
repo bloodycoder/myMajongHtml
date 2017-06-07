@@ -231,6 +231,7 @@ var jsReplayServer = {
         _instance.LoadReplayData = function(playData, userInfo) {
             this.m_ReplayData = playData;
             this.m_PlayerInfo = userInfo;
+			//calculate the steps        picard 
         };
 
         _instance.SetPlaySpeed = function (speed) {
