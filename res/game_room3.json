@@ -808,8 +808,8 @@
                   "Y": 400.0
                 },
                 "Scale": {
-                  "ScaleX": 1.3,
-                  "ScaleY": 1.3
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
                 },
                 "CColor": {},
                 "IconVisible": true,
@@ -1498,7 +1498,7 @@
                     },
                     "Scale": {
                       "ScaleX": 1.0,
-                      "ScaleY": 0.79
+                      "ScaleY": 1.0
                     },
                     "CColor": {},
                     "IconVisible": true,
@@ -3105,11 +3105,11 @@
                     "AnchorPoint": {},
                     "Position": {
                       "X": 35.0,
-                      "Y": 102.0
+                      "Y": 60.0
                     },
                     "Scale": {
-                      "ScaleX": 1.32,
-                      "ScaleY": 1.32
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
                     },
                     "RotationSkewX": 18000.0,
                     "RotationSkewY": 18000.0,
@@ -3125,8 +3125,8 @@
                     },
                     "LeftMargin": 35.0,
                     "RightMargin": -35.0,
-                    "TopMargin": -102.0,
-                    "BottomMargin": 102.0,
+                    "TopMargin": -60.0,
+                    "BottomMargin": 60.0,
                     "Tag": 2157,
                     "Children": [
                       {
@@ -5587,11 +5587,11 @@
                     "AnchorPoint": {},
                     "Position": {
                       "X": 2.0,
-                      "Y": -39.0
+                      "Y": -10.0
                     },
                     "Scale": {
-                      "ScaleX": 1.5,
-                      "ScaleY": 1.56
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
                     },
                     "CColor": {},
                     "IconVisible": true,
@@ -5605,8 +5605,8 @@
                     },
                     "LeftMargin": 2.0,
                     "RightMargin": -2.0,
-                    "TopMargin": 39.0,
-                    "BottomMargin": -39.0,
+                    "TopMargin": 10.0,
+                    "BottomMargin": -10.0,
                     "Tag": 2198,
                     "Children": [
                       {
@@ -8117,6 +8117,7 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
+                "VisibleForFrame": false,
                 "Name": "player_03",
                 "ctype": "SingleNodeObjectData"
               },
@@ -8127,8 +8128,8 @@
                   "Y": 375.0
                 },
                 "Scale": {
-                  "ScaleX": 1.3,
-                  "ScaleY": 1.3
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
                 },
                 "CColor": {},
                 "IconVisible": true,
@@ -8812,12 +8813,12 @@
                   {
                     "AnchorPoint": {},
                     "Position": {
-                      "X": 97.0,
-                      "Y": -280.0
+                      "X": 13.0,
+                      "Y": -230.0
                     },
                     "Scale": {
-                      "ScaleX": 1.14,
-                      "ScaleY": 1.11
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
                     },
                     "CColor": {},
                     "IconVisible": true,
@@ -8829,10 +8830,10 @@
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 97.0,
-                    "RightMargin": -97.0,
-                    "TopMargin": 280.0,
-                    "BottomMargin": -280.0,
+                    "LeftMargin": 13.0,
+                    "RightMargin": -13.0,
+                    "TopMargin": 230.0,
+                    "BottomMargin": -230.0,
                     "Tag": 2393,
                     "Children": [
                       {
@@ -10422,11 +10423,11 @@
                     "AnchorPoint": {},
                     "Position": {
                       "X": -95.0,
-                      "Y": 126.0
+                      "Y": 60.0
                     },
                     "Scale": {
-                      "ScaleX": 1.32,
-                      "ScaleY": 1.31
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
                     },
                     "CColor": {},
                     "IconVisible": true,
@@ -10440,8 +10441,8 @@
                     },
                     "LeftMargin": -95.0,
                     "RightMargin": 95.0,
-                    "TopMargin": -126.0,
-                    "BottomMargin": 126.0,
+                    "TopMargin": -60.0,
+                    "BottomMargin": 60.0,
                     "Tag": 2430,
                     "Children": [
                       {
@@ -12892,12 +12893,12 @@
                   {
                     "AnchorPoint": {},
                     "Position": {
-                      "X": 75.0,
-                      "Y": 78.0
+                      "X": 0.0,
+                      "Y": 68.0
                     },
                     "Scale": {
-                      "ScaleX": 1.5,
-                      "ScaleY": 1.55
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
                     },
                     "CColor": {},
                     "IconVisible": true,
@@ -12909,10 +12910,8 @@
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 75.0,
-                    "RightMargin": -75.0,
-                    "TopMargin": -78.0,
-                    "BottomMargin": 78.0,
+                    "TopMargin": -68.0,
+                    "BottomMargin": 68.0,
                     "Tag": 2471,
                     "Children": [
                       {
@@ -15465,6 +15464,7 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
+                "VisibleForFrame": false,
                 "Name": "player_02",
                 "ctype": "SingleNodeObjectData"
               },
@@ -15498,7 +15498,7 @@
                     "AnchorPoint": {},
                     "Position": {
                       "X": -625.0,
-                      "Y": -148.0
+                      "Y": -10.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -15516,8 +15516,8 @@
                     },
                     "LeftMargin": -625.0,
                     "RightMargin": 625.0,
-                    "TopMargin": 148.0,
-                    "BottomMargin": -148.0,
+                    "TopMargin": 10.0,
+                    "BottomMargin": -10.0,
                     "Tag": 2544,
                     "Children": [
                       {
@@ -17037,11 +17037,11 @@
                     "AnchorPoint": {},
                     "Position": {
                       "X": 0.0,
-                      "Y": 80.0
+                      "Y": 165.0
                     },
                     "Scale": {
-                      "ScaleX": 1.5,
-                      "ScaleY": 1.58
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
                     },
                     "CColor": {},
                     "IconVisible": true,
@@ -17053,8 +17053,8 @@
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "TopMargin": -80.0,
-                    "BottomMargin": 80.0,
+                    "TopMargin": -165.0,
+                    "BottomMargin": 165.0,
                     "Tag": 2581,
                     "Children": [
                       {
@@ -19391,12 +19391,12 @@
                   {
                     "AnchorPoint": {},
                     "Position": {
-                      "X": 63.0,
-                      "Y": -135.0
+                      "X": 10.0,
+                      "Y": -10.0
                     },
                     "Scale": {
-                      "ScaleX": 1.2,
-                      "ScaleY": 1.2
+                      "ScaleX": 1.1,
+                      "ScaleY": 1.1
                     },
                     "CColor": {},
                     "IconVisible": true,
@@ -19408,10 +19408,10 @@
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "LeftMargin": 63.0,
-                    "RightMargin": -63.0,
-                    "TopMargin": 135.0,
-                    "BottomMargin": -135.0,
+                    "LeftMargin": 10.0,
+                    "RightMargin": -10.0,
+                    "TopMargin": 10.0,
+                    "BottomMargin": -10.0,
                     "Tag": 2622,
                     "Children": [
                       {
@@ -20673,11 +20673,11 @@
                     "AnchorPoint": {},
                     "Position": {
                       "X": 0.0,
-                      "Y": -176.0
+                      "Y": 0.0
                     },
                     "Scale": {
-                      "ScaleX": 1.06,
-                      "ScaleY": 1.05
+                      "ScaleX": 1.1,
+                      "ScaleY": 1.1
                     },
                     "CColor": {},
                     "IconVisible": true,
@@ -20689,8 +20689,6 @@
                       "X": 0.0,
                       "Y": 0.0
                     },
-                    "TopMargin": 176.0,
-                    "BottomMargin": -176.0,
                     "Tag": 2477,
                     "Children": [
                       {
@@ -24633,6 +24631,7 @@
                   "X": 0.0,
                   "Y": 0.0
                 },
+                "VisibleForFrame": false,
                 "Name": "player_01",
                 "ctype": "SingleNodeObjectData"
               },
