@@ -1,0 +1,315 @@
+{
+  "ID": "b4d65ea4-7543-49e4-b616-92b61417e498",
+  "Version": "3.10.0.0",
+  "Name": "update_dialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 49,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.3347
+            },
+            "TopMargin": -251.0,
+            "Tag": 1904,
+            "ActionTag": -1186463774,
+            "Size": {
+              "X": 1334.0,
+              "Y": 1001.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -675,
+            "Scale9OriginY": -506,
+            "Scale9Width": 1350,
+            "Scale9Height": 1012,
+            "TouchEnable": true,
+            "StretchWidthEnable": true,
+            "StretchHeightEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.6653
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "TopMargin": 125.5,
+            "BottomMargin": 125.5,
+            "Tag": 50,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/login/loding_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 375.0
+                },
+                "Scale": {
+                  "ScaleX": 0.6513,
+                  "ScaleY": 0.6513
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7515
+                },
+                "PreSize": {
+                  "X": 0.0345,
+                  "Y": 0.0922
+                },
+                "LeftMargin": 644.0,
+                "RightMargin": 644.0,
+                "TopMargin": 101.0,
+                "BottomMargin": 352.0,
+                "Tag": 51,
+                "ActionTag": -870509571,
+                "Size": {
+                  "X": 2048.0,
+                  "Y": 1536.0
+                },
+                "Name": "loding_bg_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "努力加载中...",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 675.0,
+                  "Y": 153.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 77,
+                  "G": 34,
+                  "B": 18
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.506,
+                  "Y": 0.3066
+                },
+                "PreSize": {
+                  "X": 0.3748,
+                  "Y": 0.0641
+                },
+                "LeftMargin": 425.0,
+                "RightMargin": 409.0,
+                "TopMargin": 330.0,
+                "BottomMargin": 137.0,
+                "Tag": 54,
+                "ActionTag": -1247972815,
+                "Size": {
+                  "X": 500.0,
+                  "Y": 32.0
+                },
+                "Name": "text",
+                "ctype": "TextObjectData"
+              },
+              {
+                "BackGroundData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_sz_1.png",
+                  "Plist": ""
+                },
+                "ProgressBarData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_sz_2.png",
+                  "Plist": ""
+                },
+                "BallNormalData": {
+                  "Type": "Normal",
+                  "Path": "res/login/loading_shaizi.png",
+                  "Plist": ""
+                },
+                "BallPressedData": {
+                  "Type": "Normal",
+                  "Path": "res/login/loading_shaizi.png",
+                  "Plist": ""
+                },
+                "BallDisabledData": {
+                  "Type": "Normal",
+                  "Path": "res/login/loading_shaizi.png",
+                  "Plist": ""
+                },
+                "PercentInfo": 52,
+                "DisplayState": false,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 666.0,
+                  "Y": 197.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4993,
+                  "Y": 0.3948
+                },
+                "PreSize": {
+                  "X": 0.3328,
+                  "Y": 0.0641
+                },
+                "LeftMargin": 444.0,
+                "RightMargin": 446.0,
+                "TopMargin": 286.0,
+                "BottomMargin": 181.0,
+                "Tag": 56,
+                "ActionTag": 1335746901,
+                "Size": {
+                  "X": 444.0,
+                  "Y": 32.0
+                },
+                "Name": "progress_bar",
+                "ctype": "SliderObjectData"
+              }
+            ],
+            "ActionTag": 1449327086,
+            "Size": {
+              "X": 1334.0,
+              "Y": 499.0
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 1001.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "res/common/common_sz_1.png",
+        "res/common/common_sz_2.png",
+        "res/login/loading_shaizi.png",
+        "res/login/loding_bg.png",
+        "res/STHeiti-Light.ttc"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

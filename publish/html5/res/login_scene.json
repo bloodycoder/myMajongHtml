@@ -1,0 +1,1112 @@
+{
+  "ID": "d36c19dd-6a16-48a5-8b3d-b3e41e07439f",
+  "Version": "3.10.0.0",
+  "Name": "login_scene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "StretchWidthEnable": true,
+            "StretchHeightEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 500.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.7493
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "TopMargin": 125.5,
+            "BottomMargin": 125.5,
+            "Tag": 33,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/login/loding_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 375.0
+                },
+                "Scale": {
+                  "ScaleX": 0.6513,
+                  "ScaleY": 0.6513
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.5352,
+                  "Y": 2.048
+                },
+                "LeftMargin": -357.0,
+                "RightMargin": -357.0,
+                "TopMargin": -393.0,
+                "BottomMargin": -393.0,
+                "Tag": 23,
+                "ActionTag": -1241035310,
+                "Size": {
+                  "X": 2048.0,
+                  "Y": 1536.0
+                },
+                "Name": "loding_bg_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_check2_nor.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_check2_nor.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_check2_pre.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_check2_pre.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 573.9254,
+                  "Y": 102.7747
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4302,
+                  "Y": 0.137
+                },
+                "PreSize": {
+                  "X": 0.036,
+                  "Y": 0.064
+                },
+                "LeftMargin": 549.9254,
+                "RightMargin": 736.0746,
+                "TopMargin": 623.2253,
+                "BottomMargin": 78.7747,
+                "Tag": 29,
+                "ActionTag": 540425999,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 48.0
+                },
+                "Name": "agree_checkbox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -15,
+                "Scale9OriginY": -4,
+                "Scale9Width": 30,
+                "Scale9Height": 8,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 720.0,
+                  "Y": 105.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5397,
+                  "Y": 0.14
+                },
+                "PreSize": {
+                  "X": 0.1499,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 620.0,
+                "RightMargin": 514.0,
+                "TopMargin": 625.0,
+                "BottomMargin": 85.0,
+                "Tag": 502,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "同意用户协议",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "res/STHeiti-Light.ttc",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 80.0,
+                      "Y": 15.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 77,
+                      "G": 34,
+                      "B": 18
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4,
+                      "Y": 0.375
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.925
+                    },
+                    "LeftMargin": -20.0,
+                    "RightMargin": 20.0,
+                    "TopMargin": 6.5,
+                    "BottomMargin": -3.5,
+                    "Tag": 30,
+                    "ActionTag": -843377417,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 37.0
+                    },
+                    "Name": "label_agreement",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -2088159533,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 40.0
+                },
+                "Name": "btn_agreement",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 36,
+                "ButtonText": "登录",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_10_pre.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_10_nor.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 270,
+                "Scale9Height": 90,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 209.4772
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2793
+                },
+                "PreSize": {
+                  "X": 0.2249,
+                  "Y": 0.1493
+                },
+                "LeftMargin": 517.0,
+                "RightMargin": 517.0,
+                "TopMargin": 484.5228,
+                "BottomMargin": 153.4772,
+                "Tag": 21,
+                "ActionTag": 2057121180,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 112.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gov_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": 1334.0,
+                "TopMargin": 750.0,
+                "Tag": 806,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "res/login/login_registered_nor.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "res/login/login_registered_pre.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "res/login/login_registered_nor.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 137,
+                    "Scale9Height": 46,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 860.0,
+                      "Y": 180.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 776.5,
+                    "RightMargin": -943.5,
+                    "TopMargin": -214.0,
+                    "BottomMargin": 146.0,
+                    "Tag": 807,
+                    "ActionTag": 984023102,
+                    "Size": {
+                      "X": 167.0,
+                      "Y": 68.0
+                    },
+                    "Name": "btn_register",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "res/login/login_login_nor.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "res/login/login_login_pre.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "res/login/login_login_nor.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 137,
+                    "Scale9Height": 46,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 860.0,
+                      "Y": 250.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 776.5,
+                    "RightMargin": -943.5,
+                    "TopMargin": -284.0,
+                    "BottomMargin": 216.0,
+                    "Tag": 808,
+                    "ActionTag": -1557746431,
+                    "Size": {
+                      "X": 167.0,
+                      "Y": 68.0
+                    },
+                    "Name": "btn_login",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "res/login/login_password.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 108,
+                    "Scale9OriginY": 22,
+                    "Scale9Width": 112,
+                    "Scale9Height": 24,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 600.0,
+                      "Y": 180.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 436.0,
+                    "RightMargin": -764.0,
+                    "TopMargin": -214.0,
+                    "BottomMargin": 146.0,
+                    "Tag": 809,
+                    "Children": [
+                      {
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "res/STHeiti-Light.ttc",
+                          "Plist": ""
+                        },
+                        "FontSize": 36,
+                        "IsCustomSize": true,
+                        "LabelText": "",
+                        "PlaceHolderText": "",
+                        "MaxLengthEnable": true,
+                        "MaxLengthText": 16,
+                        "PasswordEnable": true,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 212.8807,
+                          "Y": 25.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.649,
+                          "Y": 0.3676
+                        },
+                        "PreSize": {
+                          "X": 0.6098,
+                          "Y": 0.7353
+                        },
+                        "LeftMargin": 112.8807,
+                        "RightMargin": 15.1193,
+                        "TopMargin": 18.0,
+                        "Tag": 810,
+                        "ActionTag": -1967055928,
+                        "Size": {
+                          "X": 200.0,
+                          "Y": 50.0
+                        },
+                        "Name": "txt_password",
+                        "ctype": "TextFieldObjectData"
+                      }
+                    ],
+                    "ActionTag": -597484165,
+                    "Size": {
+                      "X": 328.0,
+                      "Y": 68.0
+                    },
+                    "Name": "password",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "res/login/login_name.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 108,
+                    "Scale9OriginY": 22,
+                    "Scale9Width": 112,
+                    "Scale9Height": 24,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 600.0,
+                      "Y": 250.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 436.0,
+                    "RightMargin": -764.0,
+                    "TopMargin": -284.0,
+                    "BottomMargin": 216.0,
+                    "Tag": 811,
+                    "Children": [
+                      {
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "res/STHeiti-Light.ttc",
+                          "Plist": ""
+                        },
+                        "FontSize": 36,
+                        "IsCustomSize": true,
+                        "LabelText": "",
+                        "PlaceHolderText": "",
+                        "MaxLengthEnable": true,
+                        "MaxLengthText": 16,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 212.8807,
+                          "Y": 25.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.649,
+                          "Y": 0.3676
+                        },
+                        "PreSize": {
+                          "X": 0.6098,
+                          "Y": 0.7353
+                        },
+                        "LeftMargin": 112.8807,
+                        "RightMargin": 15.1193,
+                        "TopMargin": 18.0,
+                        "Tag": 812,
+                        "ActionTag": -916797473,
+                        "Size": {
+                          "X": 200.0,
+                          "Y": 50.0
+                        },
+                        "Name": "txt_name",
+                        "ctype": "TextFieldObjectData"
+                      }
+                    ],
+                    "ActionTag": 1996309000,
+                    "Size": {
+                      "X": 328.0,
+                      "Y": 68.0
+                    },
+                    "Name": "name",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -148540234,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ios",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "res/login/login_btn1_nor.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "res/login/login_btn1_pre.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "res/login/login_btn1_nor.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 360,
+                "Scale9Height": 94,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 211.4772
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.282
+                },
+                "PreSize": {
+                  "X": 0.2924,
+                  "Y": 0.1547
+                },
+                "LeftMargin": 472.0,
+                "RightMargin": 472.0,
+                "TopMargin": 480.5228,
+                "BottomMargin": 153.4772,
+                "Tag": 19,
+                "ActionTag": 794925305,
+                "Size": {
+                  "X": 390.0,
+                  "Y": 116.0
+                },
+                "Name": "wechat_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "Button",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_9_pre.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_9_nor.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 270,
+                "Scale9Height": 90,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.4696,
+                  "ScaleY": 0.443
+                },
+                "Position": {
+                  "X": 118.2512,
+                  "Y": 204.5113
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0886,
+                  "Y": 0.2727
+                },
+                "PreSize": {
+                  "X": 0.2249,
+                  "Y": 0.1493
+                },
+                "LeftMargin": -22.6288,
+                "RightMargin": 1056.6288,
+                "TopMargin": 483.1047,
+                "BottomMargin": 154.8953,
+                "Tag": 757,
+                "ActionTag": -1402435059,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 112.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Button_IP",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 4,
+                "Scale9Width": 12,
+                "Scale9Height": 6,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 76.4234,
+                  "Y": 634.1141
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0573,
+                  "Y": 0.8455
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.1333
+                },
+                "LeftMargin": 26.4234,
+                "RightMargin": 1207.5767,
+                "TopMargin": 65.8859,
+                "BottomMargin": 584.1141,
+                "Tag": 1132,
+                "ActionTag": 711013877,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "btn_log",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 939632173,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 500.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2633,
+            "Children": [
+              {
+                "FontSize": 36,
+                "LabelText": "正在登录……",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 665.5326,
+                  "Y": 329.2324
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.4989,
+                  "Y": 0.3289
+                },
+                "PreSize": {
+                  "X": 0.1619,
+                  "Y": 0.0539
+                },
+                "LeftMargin": 557.5326,
+                "RightMargin": 560.4674,
+                "TopMargin": 644.7676,
+                "BottomMargin": 302.2324,
+                "Tag": 18,
+                "ActionTag": -655475082,
+                "Size": {
+                  "X": 216.0,
+                  "Y": 54.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -984419839,
+            "Size": {
+              "X": 1334.0,
+              "Y": 1001.0
+            },
+            "VisibleForFrame": false,
+            "Name": "mask_layer",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 1001.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/CheckBox_Disable.png",
+        "res/common/common_10_nor.png",
+        "res/common/common_10_pre.png",
+        "res/common/common_9_nor.png",
+        "res/common/common_9_pre.png",
+        "res/common/common_check2_nor.png",
+        "res/common/common_check2_pre.png",
+        "res/login/loding_bg.png",
+        "res/login/login_btn1_nor.png",
+        "res/login/login_btn1_pre.png",
+        "res/login/login_login_nor.png",
+        "res/login/login_login_pre.png",
+        "res/login/login_name.png",
+        "res/login/login_password.png",
+        "res/login/login_registered_nor.png",
+        "res/login/login_registered_pre.png",
+        "res/STHeiti-Light.ttc"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

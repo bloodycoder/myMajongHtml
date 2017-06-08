@@ -1,0 +1,402 @@
+{
+  "ID": "4a2dbc1d-080d-4843-bd29-bbbd52f81079",
+  "Version": "3.10.0.0",
+  "Name": "score_point",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 61,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 204.0,
+            "TopMargin": 50.0,
+            "Tag": 69,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/end/end_11.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 36,
+                "Scale9OriginY": 13,
+                "Scale9Width": 38,
+                "Scale9Height": 14,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": -204.0,
+                "TopMargin": -40.0,
+                "Tag": 75,
+                "ActionTag": -1116576866,
+                "Size": {
+                  "X": 204.0,
+                  "Y": 40.0
+                },
+                "Name": "background",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "+99",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 174.6701,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 151.6701,
+                "RightMargin": -197.6701,
+                "TopMargin": -32.0,
+                "BottomMargin": -4.0,
+                "Tag": 70,
+                "ActionTag": 732517779,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 36.0
+                },
+                "Name": "value",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "什么鸡鸡",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 105.0,
+                  "Y": 14.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 161,
+                  "G": 55,
+                  "B": 23
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 55.0,
+                "RightMargin": -155.0,
+                "TopMargin": -34.0,
+                "BottomMargin": -6.0,
+                "Tag": 71,
+                "ActionTag": -909700099,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 40.0
+                },
+                "Name": "name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/end/end_7_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 16,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 30.4324,
+                  "Y": 20.6052
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 9.4324,
+                "RightMargin": -51.4324,
+                "TopMargin": -41.6052,
+                "BottomMargin": -0.3948,
+                "Tag": 99,
+                "ActionTag": 2055857297,
+                "Size": {
+                  "X": 42.0,
+                  "Y": 42.0
+                },
+                "Name": "no_card",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/room/mahjong_card_2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 19,
+                "Scale9Width": 14,
+                "Scale9Height": 20,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 15.0,
+                  "Y": 4.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 15.0,
+                "RightMargin": -45.0,
+                "TopMargin": -46.0,
+                "BottomMargin": 4.0,
+                "Tag": 72,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "res/room/mahjong_wan_9.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 21,
+                    "Scale9OriginY": 32,
+                    "Scale9Width": 24,
+                    "Scale9Height": 34,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 15.0,
+                      "Y": 24.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.3,
+                      "ScaleY": 0.3
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5714
+                    },
+                    "PreSize": {
+                      "X": 2.9333,
+                      "Y": 2.7143
+                    },
+                    "LeftMargin": -29.0,
+                    "RightMargin": -29.0,
+                    "TopMargin": -39.0,
+                    "BottomMargin": -33.0,
+                    "Tag": 73,
+                    "ActionTag": -518897254,
+                    "Size": {
+                      "X": 88.0,
+                      "Y": 114.0
+                    },
+                    "Name": "icon_face",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 149617377,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 42.0
+                },
+                "Name": "card",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/end/end_8_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 14,
+                "Scale9Width": 13,
+                "Scale9Height": 16,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 13.0,
+                  "Y": 2.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 13.0,
+                "RightMargin": -47.0,
+                "TopMargin": -46.0,
+                "BottomMargin": 2.0,
+                "Tag": 74,
+                "ActionTag": -1082282080,
+                "Size": {
+                  "X": 34.0,
+                  "Y": 44.0
+                },
+                "Name": "golden",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 2108834847,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "root",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 204.0,
+          "Y": 50.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "res/end/end_11.png",
+        "res/end/end_7_1.png",
+        "res/end/end_8_1.png",
+        "res/room/mahjong_card_2.png",
+        "res/room/mahjong_wan_9.png",
+        "res/STHeiti-Light.ttc"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,620 @@
+{
+  "ID": "bde23a15-d010-443a-af74-9b7b7d60b7c8",
+  "Version": "3.10.0.0",
+  "Name": "player_info_dialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 33,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 126,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 500.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentWidthEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 89,
+            "ActionTag": 1933388015,
+            "Size": {
+              "X": 1334.0,
+              "Y": 1001.0
+            },
+            "Alpha": 127,
+            "Name": "background",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "StretchWidthEnable": true,
+            "StretchHeightEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 500.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.7493
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "TopMargin": 125.5,
+            "BottomMargin": 125.5,
+            "Tag": 90,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/common/common_2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 58,
+                "Scale9OriginY": 58,
+                "Scale9Width": 62,
+                "Scale9Height": 62,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 375.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3478,
+                  "Y": 0.2587
+                },
+                "LeftMargin": 435.0,
+                "RightMargin": 435.0,
+                "TopMargin": 278.0,
+                "BottomMargin": 278.0,
+                "Tag": 91,
+                "ActionTag": -1679778382,
+                "Size": {
+                  "X": 464.0,
+                  "Y": 194.0
+                },
+                "Name": "Image_11",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/common/main_head1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 520.8994,
+                  "Y": 377.0991
+                },
+                "Scale": {
+                  "ScaleX": 1.48,
+                  "ScaleY": 1.48
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3905,
+                  "Y": 0.5028
+                },
+                "PreSize": {
+                  "X": 0.0637,
+                  "Y": 0.1133
+                },
+                "LeftMargin": 478.3994,
+                "RightMargin": 770.6006,
+                "TopMargin": 330.4009,
+                "BottomMargin": 334.5991,
+                "Tag": 173,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "res/common/main_photo.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 42.5,
+                      "Y": 42.5
+                    },
+                    "Scale": {
+                      "ScaleX": 0.96,
+                      "ScaleY": 0.96
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.8824,
+                      "Y": 0.8824
+                    },
+                    "LeftMargin": 5.0,
+                    "RightMargin": 5.0,
+                    "TopMargin": 5.0,
+                    "BottomMargin": 5.0,
+                    "Tag": 174,
+                    "ActionTag": -460121161,
+                    "Size": {
+                      "X": 75.0,
+                      "Y": 75.0
+                    },
+                    "Name": "photo",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "res/common/main_head2.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 28,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 29,
+                    "Scale9Height": 29,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 42.5,
+                      "Y": 42.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 3998,
+                    "ActionTag": 673557991,
+                    "Size": {
+                      "X": 85.0,
+                      "Y": 85.0
+                    },
+                    "Name": "Image_615",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 801415702,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 85.0
+                },
+                "Name": "icon_portrait",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 26,
+                "LabelText": "Text Label",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 593.0001,
+                  "Y": 344.8712
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 142,
+                  "G": 84,
+                  "B": 50
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4445,
+                  "Y": 0.4598
+                },
+                "PreSize": {
+                  "X": 0.2249,
+                  "Y": 0.064
+                },
+                "LeftMargin": 593.0001,
+                "RightMargin": 440.9999,
+                "TopMargin": 405.1288,
+                "BottomMargin": 296.8712,
+                "Tag": 177,
+                "ActionTag": -982746559,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 48.0
+                },
+                "Name": "id_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 26,
+                "LabelText": "ip: 255.255.255.255",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 593.0001,
+                  "Y": 384.9819
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 142,
+                  "G": 84,
+                  "B": 50
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4445,
+                  "Y": 0.5133
+                },
+                "PreSize": {
+                  "X": 0.2249,
+                  "Y": 0.064
+                },
+                "LeftMargin": 593.0001,
+                "RightMargin": 440.9999,
+                "TopMargin": 365.0181,
+                "BottomMargin": 336.9819,
+                "Tag": 176,
+                "ActionTag": 1535763187,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 48.0
+                },
+                "Name": "ip_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 32,
+                "LabelText": "Text Label",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 593.0,
+                  "Y": 431.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 142,
+                  "G": 84,
+                  "B": 50
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4445,
+                  "Y": 0.5747
+                },
+                "PreSize": {
+                  "X": 0.2249,
+                  "Y": 0.064
+                },
+                "LeftMargin": 593.0,
+                "RightMargin": 441.0,
+                "TopMargin": 318.9999,
+                "BottomMargin": 383.0001,
+                "Tag": 175,
+                "ActionTag": 8114281,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 48.0
+                },
+                "Name": "name_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Ver.",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.067,
+                  "Y": 295.4604
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 142,
+                  "G": 84,
+                  "B": 50
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3689,
+                  "Y": 0.3939
+                },
+                "PreSize": {
+                  "X": 0.0285,
+                  "Y": 0.04
+                },
+                "LeftMargin": 473.067,
+                "RightMargin": 822.933,
+                "TopMargin": 439.5396,
+                "BottomMargin": 280.4604,
+                "Tag": 2062,
+                "ActionTag": -1252050976,
+                "Size": {
+                  "X": 38.0,
+                  "Y": 30.0
+                },
+                "Name": "text",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "1.0.0",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 516.2714,
+                  "Y": 295.4604
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 142,
+                  "G": 84,
+                  "B": 50
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.387,
+                  "Y": 0.3939
+                },
+                "PreSize": {
+                  "X": 0.1499,
+                  "Y": 0.04
+                },
+                "LeftMargin": 516.2714,
+                "RightMargin": 617.7286,
+                "TopMargin": 439.5396,
+                "BottomMargin": 280.4604,
+                "Tag": 2063,
+                "ActionTag": 165530469,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 30.0
+                },
+                "Name": "version_text",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 92524794,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 1001.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "res/common/common_2.png",
+        "res/common/main_head1.png",
+        "res/common/main_head2.png",
+        "res/common/main_photo.png",
+        "res/STHeiti-Light.ttc"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

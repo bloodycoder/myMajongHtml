@@ -1,0 +1,140 @@
+{
+  "ID": "36eafd52-6646-4c54-9a5c-812d3a0d56ae",
+  "Version": "3.10.0.0",
+  "Name": "top_message",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 2075,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/room/mahjong_bottom frame_4.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 13,
+            "Scale9Width": 125,
+            "Scale9Height": 14,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 674.1776,
+              "Y": 162.8083
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5054,
+              "Y": 0.9927
+            },
+            "PreSize": {
+              "X": 0.6747,
+              "Y": 0.6098
+            },
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 224.1776,
+            "RightMargin": 209.8224,
+            "TopMargin": 1.1917,
+            "BottomMargin": 62.8083,
+            "Tag": 8,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "Text LabelText AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "res/STHeiti-Light.ttc",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 448.38,
+                  "Y": 41.2131
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4982,
+                  "Y": 0.4121
+                },
+                "PreSize": {
+                  "X": 0.8811,
+                  "Y": 0.36
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 51.88,
+                "RightMargin": 55.12,
+                "TopMargin": 40.7869,
+                "BottomMargin": 23.2131,
+                "Tag": 2994,
+                "ActionTag": 2076338434,
+                "Size": {
+                  "X": 793.0,
+                  "Y": 36.0
+                },
+                "Name": "Text_21",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1505155141,
+            "Size": {
+              "X": 900.0,
+              "Y": 100.0
+            },
+            "Alpha": 229,
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 164.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "res/room/mahjong_bottom frame_4.png",
+        "res/STHeiti-Light.ttc"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
