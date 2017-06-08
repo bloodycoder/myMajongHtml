@@ -74,7 +74,7 @@ cc.game.onStart = function(){
 
     // Setup the resolution policy and design resolution size
 	// 1330, 950
-    cc.view.setDesignResolutionSize(1330, 950, cc.ResolutionPolicy.SHOW_ALL);
+    cc.view.setDesignResolutionSize(1330, 950, cc.ResolutionPolicy.EXACT_FIT);
 
     // The game will be resized when browser size change
     cc.view.resizeWithBrowserSize(true);
