@@ -205,10 +205,10 @@ GameRoomPlaybackLayer = cc.Layer.extend({
         this.m_electricity.setVisible(true);
         this.m_LiuChangDu = this.m_electricity.getChildByName("liuchangdu");
         this.m_PingNode = rootNode.getChildByName("ping");
-        this.m_PingZhiBg = this.m_PingNode.getChildByName("pingzhi_bg");
-        this.m_PingZhi = this.m_PingNode.getChildByName("pingzhi");
-        this.m_LiuChangDu.setVisible(false);
-        this.m_PingNode.setVisible(false);
+        //this.m_PingZhiBg = this.m_PingNode.getChildByName("pingzhi_bg");
+        //this.m_PingZhi = this.m_PingNode.getChildByName("pingzhi");
+        //this.m_LiuChangDu.setVisible(false);
+        //this.m_PingNode.setVisible(false);
 
 
         this.m_LocatorAnim = ccs.load(res.mahjong_choose_csd);
@@ -275,11 +275,11 @@ GameRoomPlaybackLayer = cc.Layer.extend({
         this.m_BtnBack = this.m_uiRoomActionNode.getChildByName("btn_back");
         this.m_BtnInvite.addTouchEventListener(this.onInviteClick, this);
         this.m_BtnBack.addTouchEventListener(this.onBackClick, this);
-        if (cc.sys.os == cc.sys.OS_IOS) {
-            if (IosRegister.GetWeChatTag() != 1) {
-                this.m_BtnInvite.setVisible(false);
-            }
-        }
+        //if (cc.sys.os == cc.sys.OS_IOS) {
+        //    if (IosRegister.GetWeChatTag() != 1) {
+        //        this.m_BtnInvite.setVisible(false);
+        //    }
+        //}
         this.m_BtnSetting = rootNode.getChildByName("btn_setting");
         this.m_BtnChat = rootNode.getChildByName("btn_chat");
         this.m_BtnTalk = rootNode.getChildByName("btn_talk");
@@ -324,8 +324,8 @@ GameRoomPlaybackLayer = cc.Layer.extend({
         this.m_BtnQueMen_Tiao.addTouchEventListener(this.onQueMenTiaoClick, this);
         this.m_BtnQueMen_Tong.addTouchEventListener(this.onQueMenTongClick, this);
 
-        this.m_LiuChangDu.addTouchEventListener(this.onLiuChangDuClick, this);
-        this.m_PingNode.addTouchEventListener(this.onPingNodeClick, this);
+        //this.m_LiuChangDu.addTouchEventListener(this.onLiuChangDuClick, this);
+        //this.m_PingNode.addTouchEventListener(this.onPingNodeClick, this);
 
         this.m_AnimationRootNode = rootNode.getChildByName("animations");
         this.m_ReadyRootNode = rootNode.getChildByName("ready");
