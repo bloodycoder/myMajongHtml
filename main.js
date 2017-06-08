@@ -80,7 +80,6 @@ cc.game.onStart = function(){
     cc.view.resizeWithBrowserSize(true);
 	//var scene = new GovNtfDialogLayer();
 	//cc.director.runScene(scene);
-	
 	//here add web access  picard
 	var GetReplayScript = document.createElement("script");
 	GetReplayScript.type = "text/javascript";
