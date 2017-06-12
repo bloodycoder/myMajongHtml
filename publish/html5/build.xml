@@ -258,16 +258,11 @@
             </sources>
             <sources dir="${basedir}">
                 <file name="src/network/js_network_manager.js"/>
-                <file name="src/root_scene.js"/>
                 <file name="src/resource.js"/>
                 <file name="src/ui/guiyang_zhuoji/game_room_playback.js"/>
-                <file name="src/ui/guiyang_zhuoji/game_room.js"/>
-                <file name="src/ui/guiyang_zhuoji/create_room.js"/>
                 <file name="src/logic/replay_server.js"/>
-                <file name="src/app.js"/>
-                <file name="src/ui/guiyang_zhuoji/gov_ntf_dialog.js"/>
                 <file name="src/ui/common_dialog.js"/>
-                <file name="src/AssetsManager.js"/>
+                <file name="src/ui/guiyang_zhuoji/create_room.js"/>
                 <file name="main.js"/>
 
             </sources>
