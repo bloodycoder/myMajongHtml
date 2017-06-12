@@ -57,7 +57,6 @@ var res = {
     common_mask_csd: "res/common_mask.json",
     top_message_csd: "res/top_message.json",
 };
-
 var g_resources = [];
 for (var i in res) {
     g_resources.push(res[i]);
