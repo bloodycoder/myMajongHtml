@@ -2171,7 +2171,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
             this.m_Players[pos].ui.m_PortraitNode.setVisible(true);
             this.m_Players[pos].ui.m_PortraitStatusNodes.name.setString(playerData.m_NickName);
             //NetworkManager.LoadURL(this.m_Players[pos].ui.m_PortraitStatusNodes.icon, playerData.m_PortraitURL);   picard
-            this.m_Players[pos].ui.m_PortraitStatusNodes.score.setString(playerData.m_Score);
+            this.m_Players[pos].ui.m_PortraitStatusNodes.score.setString("");
             this.m_Players[pos].ui.m_PortraitStatusNodes.status_offline.setVisible(playerData.m_Offline);
             this.m_Players[pos].ui.m_PortraitStatusNodes.status_zhuang.setVisible(playerData.m_GameStatus.isZhuang);
             this.m_Players[pos].ui.m_PortraitStatusNodes.status_ting.setVisible(playerData.m_GameStatus.isTing);
