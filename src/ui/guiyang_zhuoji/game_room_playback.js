@@ -168,25 +168,28 @@ GameRoomPlaybackLayer = cc.Layer.extend({
         var width = cc.view.getFrameSize().width;
 
 
-        if (Math.abs(height / width - 0.75) < 0.1) {
+        //if (Math.abs(height / width - 0.75) < 0.1) {
             //res.game_room_csd = res.game_room_pad_csd;
             //res.game_room2_csd = res.game_room2_pad_csd;
             //res.game_room3_csd = res.game_room3_pad_csd;
-        }
+        //}
         if (jsReplayServer.getShareInstance().UserManager.m_RoomData.maxPlayer == 4) {
             uiNode = ccs.load(res.game_room_csd);
             g_ResCurrentPlayerTip = g_ResCurrentPlayerTip4;
         }
         else if (jsReplayServer.getShareInstance().UserManager.m_RoomData.maxPlayer == 3) {
-            uiNode = ccs.load(res.game_room3_csd);
+            uiNode = ccs.load("res/game_room3.json");
             g_ResCurrentPlayerTip = g_ResCurrentPlayerTip3;
         }
         else{
             uiNode = ccs.load(res.game_room2_csd);
             g_ResCurrentPlayerTip = g_ResCurrentPlayerTip2;
         }
-        //this.addChild(uiNode.node, 1);
-		this.addChild(uiNode.node);
+        this.addChild(uiNode.node, 1);
+		uiNode.node.y = uiNode.node.y - 124;
+		//this.addChild(uiNode.node.getChildByName("Image_1"));
+		//this.addChild(uiNode.node.getChildByName("background"));
+		//this.addChild(uiNode.node.getChildByName("root"));
         this.m_CurrentCardCursor = null;
         var rootNode = uiNode.node.getChildByName("root");
         var Image1 = uiNode.node.getChildByName("Image_1");
@@ -194,7 +197,8 @@ GameRoomPlaybackLayer = cc.Layer.extend({
         var size = Image1.getContentSize();
         size.height = height;
         Image1.setContentSize(size);
-
+		//rootNode.y = rootNode.y - 120;
+		//alert("position is ",rootNode.y);
         this.m_electricity = rootNode.getChildByName("electricity");
         this.m_electricity_1 = this.m_electricity.getChildByName("electricity_1");
         this.m_Network = this.m_electricity.getChildByName("network");

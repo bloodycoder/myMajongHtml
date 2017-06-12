@@ -72,11 +72,11 @@ cc.game.onStart = function(){
     // Uncomment the following line to set a fixed orientation for your game
     // cc.view.setOrientation(cc.ORIENTATION_PORTRAIT);
 	if(sys.isMobile){
-		cc.view.setFrameSize(667,375);
-		cc.view.setDesignResolutionSize(1330, 1001, cc.ResolutionPolicy.EXACT_FIT);
+		cc.view.setFrameSize(640,375);
+		cc.view.setDesignResolutionSize(1330, 750, cc.ResolutionPolicy.EXACT_FIT);
 	}
 	else{
-		cc.view.setDesignResolutionSize(1330, 1001, cc.ResolutionPolicy.SHOW_ALL);
+		cc.view.setDesignResolutionSize(1330, 750, cc.ResolutionPolicy.SHOW_ALL);
 		cc.view.resizeWithBrowserSize(true);
 	}
     // Setup the resolution policy and design resolution size
