@@ -1,6 +1,373 @@
 /**
  * Created by pengchunwu on 2017/2/17.
  */
+ var g_ResCardFaces = {
+    "1" : "res/res/room/mahjong_wan_1.png",
+    "2" : "res/res/room/mahjong_wan_2.png",
+    "3" : "res/res/room/mahjong_wan_3.png",
+    "4" : "res/res/room/mahjong_wan_4.png",
+    "5" : "res/res/room/mahjong_wan_5.png",
+    "6" : "res/res/room/mahjong_wan_6.png",
+    "7" : "res/res/room/mahjong_wan_7.png",
+    "8" : "res/res/room/mahjong_wan_8.png",
+    "9" : "res/res/room/mahjong_wan_9.png",
+    "11" : "res/res/room/mahjong_tiao_1.png",
+    "12" : "res/res/room/mahjong_tiao_2.png",
+    "13" : "res/res/room/mahjong_tiao_3.png",
+    "14" : "res/res/room/mahjong_tiao_4.png",
+    "15" : "res/res/room/mahjong_tiao_5.png",
+    "16" : "res/res/room/mahjong_tiao_6.png",
+    "17" : "res/res/room/mahjong_tiao_7.png",
+    "18" : "res/res/room/mahjong_tiao_8.png",
+    "19" : "res/res/room/mahjong_tiao_9.png",
+    "21" : "res/res/room/mahjong_bing_1.png",
+    "22" : "res/res/room/mahjong_bing_2.png",
+    "23" : "res/res/room/mahjong_bing_3.png",
+    "24" : "res/res/room/mahjong_bing_4.png",
+    "25" : "res/res/room/mahjong_bing_5.png",
+    "26" : "res/res/room/mahjong_bing_6.png",
+    "27" : "res/res/room/mahjong_bing_7.png",
+    "28" : "res/res/room/mahjong_bing_8.png",
+    "29" : "res/res/room/mahjong_bing_9.png",
+    "31" : "res/res/room/mahjong_east.png",
+    "32" : "res/res/room/mahjong_south.png",
+    "33" : "res/res/room/mahjong_west.png",
+    "34" : "res/res/room/mahjong_north.png",
+    "35" : "res/res/room/mahjong_zhong.png",
+    "36" : "res/res/room/mahjong_fa.png",
+    "37" : "res/res/room/mahjong_bai.png",
+};
+
+var g_ResTimer = {
+    "0" : "res/res/room/mahjong_00.png",
+    "1" : "res/res/room/mahjong_01.png",
+    "2" : "res/res/room/mahjong_02.png",
+    "3" : "res/res/room/mahjong_03.png",
+    "4" : "res/res/room/mahjong_04.png",
+    "5" : "res/res/room/mahjong_05.png",
+    "6" : "res/res/room/mahjong_06.png",
+    "7" : "res/res/room/mahjong_07.png",
+    "8" : "res/res/room/mahjong_08.png",
+    "9" : "res/res/room/mahjong_09.png",
+    "10" : "res/res/room/mahjong_10.png",
+};
+
+/*
+ var g_ResCurrentPlayerTip4 = {
+ "0" : "res/res/room/mahjong_choose_3.png",
+ "1" : "res/res/room/mahjong_choose_4.png",
+ "2" : "res/res/room/mahjong_choose_5.png",
+ "3" : "res/res/room/mahjong_choose_2.png",
+ };
+
+ var g_ResCurrentPlayerTip3 = {
+ "0" : "res/res/room/mahjong_choose_3.png",
+ "1" : "res/res/room/mahjong_choose_4.png",
+ "2" : "res/res/room/mahjong_choose_2.png",
+ };
+
+ var g_ResCurrentPlayerTip2 = {
+ "0" : "res/res/room/mahjong_choose_3.png",
+ "1" : "res/res/room/mahjong_choose_5.png",
+ };
+ */
+
+var g_ResQuemen = {
+    "0" : "res/res/room/mahjong_wan.png",
+    "1" : "res/res/room/mahjong_tiao.png",
+    "2" : "res/res/room/mahjong_tong.png",
+};
+
+if (typeof g_ResCurrentPlayerTip4 == "undefined") {
+    var g_ResCurrentPlayerTip4 = {};
+    g_ResCurrentPlayerTip4[0] = {};
+    g_ResCurrentPlayerTip4[0].start = 66;
+    g_ResCurrentPlayerTip4[0].end = 126;
+    g_ResCurrentPlayerTip4[1] = {};
+    g_ResCurrentPlayerTip4[1].start = 127;
+    g_ResCurrentPlayerTip4[1].end = 187;
+    g_ResCurrentPlayerTip4[2] = {};
+    g_ResCurrentPlayerTip4[2].start = 188;
+    g_ResCurrentPlayerTip4[2].end = 248;
+    g_ResCurrentPlayerTip4[3] = {};
+    g_ResCurrentPlayerTip4[3].start = 5;
+    g_ResCurrentPlayerTip4[3].end = 65;
+};
+
+if (typeof g_ResCurrentPlayerTip3 == "undefined") {
+    var g_ResCurrentPlayerTip3 = {};
+    g_ResCurrentPlayerTip3[0] = {};
+    g_ResCurrentPlayerTip3[0].start = 66;
+    g_ResCurrentPlayerTip3[0].end = 126;
+    g_ResCurrentPlayerTip3[1] = {};
+    g_ResCurrentPlayerTip3[1].start = 127;
+    g_ResCurrentPlayerTip3[1].end = 187;
+    g_ResCurrentPlayerTip3[2] = {};
+    g_ResCurrentPlayerTip3[2].start = 5;
+    g_ResCurrentPlayerTip3[2].end = 65;
+};
+
+if (typeof g_ResCurrentPlayerTip2 == "undefined") {
+    var g_ResCurrentPlayerTip2 = {};
+    g_ResCurrentPlayerTip2[0] = {};
+    g_ResCurrentPlayerTip2[0].start = 66;
+    g_ResCurrentPlayerTip2[0].end = 126;
+    g_ResCurrentPlayerTip2[1] = {};
+    g_ResCurrentPlayerTip2[1].start = 188;
+    g_ResCurrentPlayerTip2[1].end = 248;
+};
+
+var g_ResCurrentPlayerTip = null;
+
+if (typeof g_WinTypeDef == "undefined") {
+    var g_WinTypeDef = {};
+    g_WinTypeDef.PingHu = 0;                       // 平胡
+    g_WinTypeDef.DaDuiHu = 0x00000001;                      //  大对胡
+    g_WinTypeDef.XiaoDuiHu = 0x00000002;                    //  小对胡
+    g_WinTypeDef.LongXiaoDui = 0x00020002;                  //  龙小对胡
+    g_WinTypeDef.DanDiaoHu = 0x00000004;                       //  单吊胡
+    g_WinTypeDef.DaDuiHu2 = 0x00000005;                      //  大对胡
+    g_WinTypeDef.QingYiSe = 0x00040000;                       //  清一色
+    g_WinTypeDef.QingYiSeDaDuiHu = (0x00040000 | 0x00000001);    //  清一色大对胡
+    g_WinTypeDef.QingYiSeXiaoDuiHu = (0x00040000 | 0x00000002);       //  清一色小对胡
+    g_WinTypeDef.QingYiSeLongXiaoDui = (0x00040000 | 0x00020002);      //  清一色龙小对
+    g_WinTypeDef.QingYiSeDanDiao = (0x00040000 | 0x00000004);        //  清一色单吊
+    g_WinTypeDef.ShuangQing = (0x00040000 | 0x00000004 |  0x00000001);        //  双清
+}
+
+var g_ResWinType = {
+    "0" : "res/res/end/end_4_1.png",                       // 平胡
+    "1" : "res/res/end/end_4_2.png",                      //  大对胡
+    "2" : "res/res/end/end_4_3.png",                    //  小对胡
+    "131074" : "res/res/end/end_4_4.png",                  //  龙小对胡
+    "4" : "res/res/end/end_4_10.png",                       //  单吊胡
+    "5": "res/res/end/end_4_10.png",                      //  大对胡
+    "262144" : "res/res/end/end_4_5.png",                       //  清一色
+    "262145" : "res/res/end/end_4_6.png",    //  清一色大对胡
+    "262146" : "res/res/end/end_4_7.png",       //  清一色小对胡
+    "393218" : "res/res/end/end_4_8.png",      //  清一色龙小对
+    "262148" : "res/res/end/end_4_9.png",        //  清一色单吊
+    "262149" : "res/res/end/end_4_9.png",        //  双清
+
+};
+
+var g_ResTingType = {
+    "0" : "res/res/end/end_5.png",
+    "1" : "res/res/end/end_6.png",
+};
+
+// 麻将牌ID
+if (typeof CardIDDefines == "undefined") {
+    var CardIDDefines = {};
+    CardIDDefines.YiWan = 1;
+    CardIDDefines.ErWan = 2;
+    CardIDDefines.SanWan = 3;
+    CardIDDefines.SiWan = 4;
+    CardIDDefines.WuWan = 5;
+    CardIDDefines.LiuWan = 6;
+    CardIDDefines.QiWan = 7;
+    CardIDDefines.BaWan = 8;
+    CardIDDefines.JiuWan = 9;
+    CardIDDefines.YiTiao = 11;
+    CardIDDefines.ErTiao = 12;
+    CardIDDefines.SanTiao = 13;
+    CardIDDefines.SiTiao = 14;
+    CardIDDefines.WuTiao = 15;
+    CardIDDefines.LiuTiao = 16;
+    CardIDDefines.QiTiao = 17;
+    CardIDDefines.BaTiao = 18;
+    CardIDDefines.JiuTiao = 19;
+    CardIDDefines.YiTong = 21;
+    CardIDDefines.ErTong = 22;
+    CardIDDefines.SanTong = 23;
+    CardIDDefines.SiTong = 24;
+    CardIDDefines.WuTong = 25;
+    CardIDDefines.LiuTong = 26;
+    CardIDDefines.QiTong = 27;
+    CardIDDefines.BaTong = 28;
+    CardIDDefines.JiuTong = 29;
+    CardIDDefines.Dong = 31;
+    CardIDDefines.Nan = 32;
+    CardIDDefines.Xi = 33;
+    CardIDDefines.Bei = 34;
+    CardIDDefines.Zhong = 35;
+    CardIDDefines.Fa = 36;
+    CardIDDefines.Bai = 37;
+
+}
+var g_AnimationPredefine = {};
+g_AnimationPredefine["ChongFengJi"] = {};               // 冲锋鸡
+g_AnimationPredefine["ZeRenJi"] = {};                   // 责任鸡
+g_AnimationPredefine["ZhuoJi"] = {};                    // 捉鸡
+g_AnimationPredefine["DianPao"] = {};                   // 点炮
+g_AnimationPredefine["ZiMo"] = {};                      // 自摸
+g_AnimationPredefine["HuangZhuang"] = {};               // 黄庄
+g_AnimationPredefine["Chi"] = {};                       // 吃
+g_AnimationPredefine["Gang"] = {};                      // 杠
+g_AnimationPredefine["Peng"] = {};                      // 碰
+g_AnimationPredefine["Ting"] = {};                      // 听
+g_AnimationPredefine["DaPai"] = {};                     // 打牌
+g_AnimationPredefine["ChongFengJi"].Key = "ChongFengJi";
+g_AnimationPredefine["ChongFengJi"].Res = res.sprint_chicken_csd;
+g_AnimationPredefine["ChongFengJi"].Static = "res/res/room/mahjong_chicken1.png";
+g_AnimationPredefine["ZeRenJi"].Key = "ZeRenJi";
+g_AnimationPredefine["ZeRenJi"].Res = res.duty_chicken_csd;
+g_AnimationPredefine["ZeRenJi"].Static = "res/res/room/mahjong_chicken2.png";
+g_AnimationPredefine["ZhuoJi"].Key = "ZhuoJi";
+g_AnimationPredefine["ZhuoJi"].Res = res.catch_chicken_csd;
+g_AnimationPredefine["ZhuoJi"].Static = "res/res/room/mahjong_chicken3.png";
+g_AnimationPredefine["DianPao"].Key = "DianPao";
+g_AnimationPredefine["DianPao"].Res = res.dianpao_csd;
+g_AnimationPredefine["DianPao"].Static = "res/res/room/mahjong_dianpao.png";
+g_AnimationPredefine["ZiMo"].Key = "ZiMo";
+g_AnimationPredefine["ZiMo"].Res = res.zimo_csd;
+g_AnimationPredefine["ZiMo"].Static = "res/res/room/mahjong_zimo.png";
+g_AnimationPredefine["Chi"].Key = "Chi";
+g_AnimationPredefine["Chi"].Res = res.chi_csd;
+g_AnimationPredefine["Chi"].Static = "";
+g_AnimationPredefine["Gang"].Key = "Gang";
+g_AnimationPredefine["Gang"].Res = res.gang_csd;
+g_AnimationPredefine["Gang"].Static = "";
+g_AnimationPredefine["Peng"].Key = "Peng";
+g_AnimationPredefine["Peng"].Res = res.peng_csd;
+g_AnimationPredefine["Peng"].Static = "";
+g_AnimationPredefine["Ting"].Key = "Ting";
+g_AnimationPredefine["Ting"].Res = res.ting_csd;
+g_AnimationPredefine["Ting"].Static = "";
+g_AnimationPredefine["HuangZhuang"].Key = "HuangZhuang";
+g_AnimationPredefine["HuangZhuang"].Res = res.huangzhuang_csd;
+g_AnimationPredefine["HuangZhuang"].Static = "";
+g_AnimationPredefine["DaPai"].Key = "DaPai";
+g_AnimationPredefine["DaPai"].Res = res.dapai_animation_csd;
+g_AnimationPredefine["DaPai"].Static = "";
+
+
+if (typeof g_ScorePointTypeDef == "undefined") {
+    var g_ScorePointTypeDef = {};
+    g_ScorePointTypeDef.None = 0;
+    g_ScorePointTypeDef.DiFen = 1;                 // 底分
+    g_ScorePointTypeDef.HuaPai = 2;                 // 花牌
+    g_ScorePointTypeDef.AnHua = 3;                 // 暗花
+    g_ScorePointTypeDef.FengKe = 4;                    // 风向刻子
+    g_ScorePointTypeDef.MaiHua = 5;                 // 买花
+    g_ScorePointTypeDef.ShunBao = 6;                 // 顺包
+    g_ScorePointTypeDef.FanBao = 7;                 // 反包
+    g_ScorePointTypeDef.WuHuaGuo = 8;                 // 无花果
+    g_ScorePointTypeDef.PaiXing = 9;                     // 牌型
+    g_ScorePointTypeDef.TianQue1 = 10;              // 天缺一门
+    g_ScorePointTypeDef.TianQue2 = 11;          // 天缺两门
+    g_ScorePointTypeDef.QuePai = 12;            // 有缺未打
+    g_ScorePointTypeDef.ZiMo = 13;                         // 自摸
+    g_ScorePointTypeDef.DianPao = 14;                      // 点炮
+    g_ScorePointTypeDef.BianKaDiao = 15;                //边卡吊
+    g_ScorePointTypeDef.DaKuanZhang = 16;            // 大宽张
+    g_ScorePointTypeDef.BianZhang = 17;                 // 边张
+    g_ScorePointTypeDef.MenQing = 18;                 // 门清
+    g_ScorePointTypeDef.KaHu = 19;                 // 卡胡
+    g_ScorePointTypeDef.DuiDaoHu = 20;                 // 对倒胡
+    g_ScorePointTypeDef.DanDiao = 21;                 // 单吊
+    g_ScorePointTypeDef.NoLianZhuang = 22;                     // 一扣二
+    g_ScorePointTypeDef.GangShangHu = 23;                 // 杠上胡
+    g_ScorePointTypeDef.RePao = 24;                        // 热炮
+    g_ScorePointTypeDef.QiangGang = 25;                   // 抢杠
+    g_ScorePointTypeDef.TianHu = 26;                       // 天胡
+    g_ScorePointTypeDef.QiXingGuiWei = 27;                 // 七星归位
+    g_ScorePointTypeDef.DiHu = 28;                          // 地胡
+    g_ScorePointTypeDef.TianTing = 29;                     // 天听
+    g_ScorePointTypeDef.ShaBao = 30;                       // 杀报
+    g_ScorePointTypeDef.ZhuangJia = 31;                   // 连庄
+    g_ScorePointTypeDef.MenDou = 32;                       // 闷豆
+    g_ScorePointTypeDef.ZhuanWanDou = 33;                 // 转弯豆
+    g_ScorePointTypeDef.MingDou = 34;                      // 明豆
+    g_ScorePointTypeDef.HanBaoDou = 35;                       // 憨包豆
+    g_ScorePointTypeDef.ChongFengJi = 36;                  // 冲锋鸡
+    g_ScorePointTypeDef.WuGuChongFengJi = 37;            // 冲锋乌骨鸡
+    g_ScorePointTypeDef.ZeRenJi = 38;                     // 责任鸡
+    g_ScorePointTypeDef.WuGuZeRenJi = 39;                 // 责任乌骨鸡
+    g_ScorePointTypeDef.ZeRenJiVictim = 40;                 // 傻逼责任鸡
+    g_ScorePointTypeDef.YaoJi = 41;                        // 普通鸡
+    g_ScorePointTypeDef.WuGuJi = 42;                       // 乌骨鸡
+    g_ScorePointTypeDef.DaoPeiYaoJi = 43;                   // 倒赔幺鸡
+    g_ScorePointTypeDef.DaoPeiWuGuJi = 44;                   // 倒赔乌骨鸡
+    g_ScorePointTypeDef.BenJi = 45;                       // 本鸡
+    g_ScorePointTypeDef.FanPaiJi = 46;                     // 翻牌鸡
+    g_ScorePointTypeDef.XingQiJi = 47;                       // 星期鸡
+    g_ScorePointTypeDef.ChuiFengJi = 48;                       // 吹风鸡
+}
+
+if (typeof GameWaitStatusDef == "undefined") {
+    var GameWaitStatusDef = {};
+    GameWaitStatusDef.Wait = 0;
+    GameWaitStatusDef.Hu = 1;
+    GameWaitStatusDef.PlayCard = 2;
+    GameWaitStatusDef.Peng = 4;
+    GameWaitStatusDef.Gang = 8;
+    GameWaitStatusDef.Chi = 16;
+    GameWaitStatusDef.AnGang = 32;
+    GameWaitStatusDef.Ting = 64;
+    GameWaitStatusDef.Pass = 128;
+    GameWaitStatusDef.QueMen = 256;
+    GameWaitStatusDef.MaiHua = 512;
+};
+
+if (typeof GameActionDef == "undefined") {
+    var GameActionDef = {};
+    GameActionDef.MoPai = 0;
+    GameActionDef.ChongFeng = 1;
+    GameActionDef.WuGuChongFeng = 2;
+    GameActionDef.ZeRen = 3;
+    GameActionDef.WuGuZeRen = 4;
+    GameActionDef.ZhuanWanDou = 5;
+    GameActionDef.Peng = 6;
+    GameActionDef.Gang = 7;
+    GameActionDef.AnGang = 8;
+    GameActionDef.QiangGangHu = 9;
+    GameActionDef.ZiMo = 10;
+    GameActionDef.DianPao = 11;
+    GameActionDef.Ting = 12;
+    GameActionDef.DaPai = 13;
+    GameActionDef.QueMen = 14;
+    GameActionDef.MaiHua = 15;
+    GameActionDef.Chi = 16;
+    GameActionDef.BuHua = 17;
+};
+
+if (typeof ActionResultTypeDef == "undefined") {
+    var ActionResultTypeDef = {};
+    ActionResultTypeDef.Unknown = 0;
+    ActionResultTypeDef.Chi = 1;
+    ActionResultTypeDef.Peng = 2;
+    ActionResultTypeDef.Gang = 3;
+    ActionResultTypeDef.DuiZi = 4;
+    ActionResultTypeDef.Hua = 5;
+    ActionResultTypeDef.AnGang = 6;
+    ActionResultTypeDef.ZhuanWanDou = 7;
+}
+if (typeof RoundStatusDef == "undefined") {
+    var RoundStatusDef = {};
+    RoundStatusDef.Unknown = 0;
+    RoundStatusDef.Preparing = 1;
+    RoundStatusDef.Running = 2;
+    RoundStatusDef.RoundStarted = 3;
+    RoundStatusDef.RoundEnd = 4;
+};
+
+if (typeof PlayerStatusDef == "undefined") {
+    var PlayerStatusDef = {};
+    PlayerStatusDef.Unknown = 0;
+    PlayerStatusDef.Offline = 1;
+    PlayerStatusDef.Zhuang = 2;
+    PlayerStatusDef.Ting = 4;
+    PlayerStatusDef.Chong = 8;
+    PlayerStatusDef.Ze = 16;
+}
+
+if (typeof DelayActionDef == "undefined") {
+    var DelayActionDef = {};
+    DelayActionDef.Visible = 1;
+    DelayActionDef.Remove = 2;
+    DelayActionDef.CallFunc = 3;
+}
 var GameRoomPlaybackLayer;
 GameRoomPlaybackLayer = cc.Layer.extend({
 
