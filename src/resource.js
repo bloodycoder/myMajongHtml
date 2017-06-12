@@ -1,6 +1,4 @@
 var res = {
-    game_room_csd : "res/game_room.json",
-    game_room2_csd : "res/game_room2.json",
     game_room3_csd : "res/game_room3.json",
     player_info_dialog_csd: "res/player_info_dialog.json",
     arrow_csd: "res/arrow.json",

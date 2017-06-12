@@ -542,7 +542,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
             //res.game_room3_csd = res.game_room3_pad_csd;
         //}
         if (jsReplayServer.getShareInstance().UserManager.m_RoomData.maxPlayer == 4) {
-            uiNode = ccs.load("res/game_room.json");
+            uiNode = ccs.load("res/game_room3.json");
             g_ResCurrentPlayerTip = g_ResCurrentPlayerTip4;
         }
         else if (jsReplayServer.getShareInstance().UserManager.m_RoomData.maxPlayer == 3) {
@@ -550,7 +550,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
             g_ResCurrentPlayerTip = g_ResCurrentPlayerTip3;
         }
         else{
-            uiNode = ccs.load(res.game_room2_csd);
+            uiNode = ccs.load("res/game_room3.json");
             g_ResCurrentPlayerTip = g_ResCurrentPlayerTip2;
         }
         this.addChild(uiNode.node, 1);
