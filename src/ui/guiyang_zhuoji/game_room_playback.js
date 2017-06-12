@@ -542,7 +542,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
             //res.game_room3_csd = res.game_room3_pad_csd;
         //}
         if (jsReplayServer.getShareInstance().UserManager.m_RoomData.maxPlayer == 4) {
-            uiNode = ccs.load(res.game_room_csd);
+            uiNode = ccs.load("res/game_room.json");
             g_ResCurrentPlayerTip = g_ResCurrentPlayerTip4;
         }
         else if (jsReplayServer.getShareInstance().UserManager.m_RoomData.maxPlayer == 3) {
