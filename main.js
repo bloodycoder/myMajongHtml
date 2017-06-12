@@ -73,7 +73,7 @@ cc.game.onStart = function(){
     // cc.view.setOrientation(cc.ORIENTATION_PORTRAIT);
 	if(sys.isMobile){
 		cc.view.setFrameSize(640,375);
-		cc.view.setDesignResolutionSize(1330, 750, cc.ResolutionPolicy.EXACT_FIT);
+		cc.view.setDesignResolutionSize(1330, 750, cc.ResolutionPolicy.SHOW_ALL);
 	}
 	else{
 		cc.view.setDesignResolutionSize(1330, 750, cc.ResolutionPolicy.SHOW_ALL);
