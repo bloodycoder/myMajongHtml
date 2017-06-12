@@ -573,8 +573,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
         this.m_electricity_text = this.m_electricity.getChildByName("electricity_text");
         this.m_time = this.m_electricity.getChildByName("time");
         //this.m_electricity.x = width;
-        this.m_electricity.y = this.m_electricity.y + (height - 750) / 2;
-        this.m_electricity.setVisible(true);
+        this.m_electricity.setVisible(false);
         this.m_LiuChangDu = this.m_electricity.getChildByName("liuchangdu");
         this.m_PingNode = rootNode.getChildByName("ping");
         //this.m_PingZhiBg = this.m_PingNode.getChildByName("pingzhi_bg");
@@ -2289,8 +2288,8 @@ GameRoomPlaybackLayer = cc.Layer.extend({
 		if(true){
             this.m_uiLocatorRoot.setVisible(true);
             this.m_uiRoomActionNode.setVisible(false);
-            this.m_uiLabelRound.setString(this.m_CurrentRound + "/" + jsReplayServer.getShareInstance().UserManager.m_RoomData.maxRound);
-            this.m_uiLabelCardRemain.setString(this.m_CardRemain);
+            this.m_uiLabelRound.setString("");
+            this.m_uiLabelCardRemain.setString("");
 
             var myselfPosition = jsReplayServer.getShareInstance().UserManager.getMyselfPosition();
             for (var playerIndex = 0; playerIndex < jsReplayServer.getShareInstance().UserManager.m_RoomData.maxPlayer; ++playerIndex) {
