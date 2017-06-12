@@ -10,7 +10,7 @@ def search(path):
         # 比较文件名
         if('.' in file):
             fileSplit = file.split('.')[-1]
-            if(fileSplit!='js'):
+            if(fileSplit!='js' and fileSplit!='json'):
                 continue
         if file.find(s) != -1:
             print path + file
