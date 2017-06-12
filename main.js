@@ -74,6 +74,7 @@ cc.game.onStart = function(){
 	if(sys.isMobile){
 		cc.view.setFrameSize(640,375);
 		cc.view.setDesignResolutionSize(1330, 750, cc.ResolutionPolicy.SHOW_ALL);
+		cc.view.resizeWithBrowserSize(true);
 	}
 	else{
 		cc.view.setDesignResolutionSize(1330, 750, cc.ResolutionPolicy.SHOW_ALL);
