@@ -185,8 +185,8 @@ GameRoomPlaybackLayer = cc.Layer.extend({
             uiNode = ccs.load(res.game_room2_csd);
             g_ResCurrentPlayerTip = g_ResCurrentPlayerTip2;
         }
-        this.addChild(uiNode.node, 1);
-
+        //this.addChild(uiNode.node, 1);
+		this.addChild(uiNode.node);
         this.m_CurrentCardCursor = null;
         var rootNode = uiNode.node.getChildByName("root");
         var Image1 = uiNode.node.getChildByName("Image_1");
