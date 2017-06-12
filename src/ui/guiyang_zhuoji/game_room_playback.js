@@ -980,7 +980,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
     onPlaybackStopClick : function (sender, eventType) {
         if (eventType == 2) {
 			console.log("playbackStop is clicked");
-            jsReplayServer.closeShareInstance()
+            //jsReplayServer.closeShareInstance()
         }
     },
 
