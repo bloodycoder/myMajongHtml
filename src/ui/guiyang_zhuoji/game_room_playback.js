@@ -38,6 +38,9 @@
     "37" : "res/res/room/mahjong_bai.png",
 };
 
+
+
+/*
 var g_ResTimer = {
     "0" : "res/res/room/mahjong_00.png",
     "1" : "res/res/room/mahjong_01.png",
@@ -51,8 +54,6 @@ var g_ResTimer = {
     "9" : "res/res/room/mahjong_09.png",
     "10" : "res/res/room/mahjong_10.png",
 };
-
-/*
  var g_ResCurrentPlayerTip4 = {
  "0" : "res/res/room/mahjong_choose_3.png",
  "1" : "res/res/room/mahjong_choose_4.png",
@@ -1413,7 +1414,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
                     }
                     else {
                         this.m_Players[i].ui.m_XuanQueNode.setVisible(true);
-                        this.m_Players[i].ui.m_XuanQueNode.loadTexture("res/res/room/mahjong_que2.png");
+                        //this.m_Players[i].ui.m_XuanQueNode.loadTexture("res/res/room/mahjong_que2.png");
                     }
                 }
             }
@@ -2001,7 +2002,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
                     var index = jsReplayServer.getShareInstance().UserManager.getPlayerPosition(huId);
                     if (typeof this.m_DianUser == "undefined" || this.m_DianUser == null || this.m_DianUser <= 0) {
                         this.m_Players[index].ui.m_PortraitStatusNodes.result.setVisible(true);
-                        this.m_Players[index].ui.m_PortraitStatusNodes.result.loadTexture("res/res/room/mahjong_zimo.png");
+                        //this.m_Players[index].ui.m_PortraitStatusNodes.result.loadTexture("res/res/room/mahjong_zimo.png");
                     }
                     else {
                         this.m_Players[index].ui.m_PortraitStatusNodes.result.setVisible(true);
@@ -2824,56 +2825,6 @@ GameRoomPlaybackLayer = cc.Layer.extend({
         this.delayAction();
 
         // 更新电量
-        if (curTime - this.m_LastStatusBarUpdateTime > 1000) {
-            this.m_LastStatusBarUpdateTime = curTime;
-            var m_DianLiang = 0;
-            var isCharged = false;
-            if(cc.sys.os == cc.sys.OS_IOS)
-            {
-                m_DianLiang = IosRegister.GetBatteryLevel();
-                if(IosRegister.GetBatteryChargeStatus() == 1)
-                {
-
-                    isCharged = true;
-                }
-
-            }
-            else
-            {
-                m_DianLiang = GameManager.GetBatteryLevel();
-                isCharged = GameManager.GetChargedState();
-            }
-            var currentdate = new Date();
-            this.m_electricity_text.setString("" + m_DianLiang + "%");
-            this.m_time.setString(currentdate.toTimeString());
-            if (isCharged) {
-                this.m_electricity_1.loadTexture("res/res/room/mahjong_electricity_3.png");
-                this.m_electricity_1.setScale(1.0, 1.0);
-            }
-            else {
-                this.m_electricity_1.loadTexture("res/res/room/mahjong_electricity_1.png");
-                var scale = parseFloat(m_DianLiang) / 100;
-                this.m_electricity_1.setScale(scale, 1.0);
-            }
-
-            //更新ping值
-            var ping = 0;
-            if (typeof g_NetworkManager != "undefined") {
-                ping = g_NetworkManager.m_LastLag;
-                this.m_PingZhi.setString("" + ping + "ms越小越流畅");
-                if (ping < 100) {
-                    this.m_LiuChangDu.loadTexture("res/res/room/mahjong_xh_lc.png");
-                }
-                else if (ping < 500) {
-                    this.m_LiuChangDu.loadTexture("res/res/room/mahjong_xh_yb.png");
-                }
-                else {
-                    this.m_LiuChangDu.loadTexture("res/res/room/mahjong_xh_fm.png");
-                }
-            } else {
-                this.m_PingZhi.setString("null ms越小越流畅");
-            }
-        }
     },
 
     onLiuChangDuClick: function (sender, eventType) {
