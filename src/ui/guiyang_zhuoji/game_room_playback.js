@@ -592,10 +592,14 @@ GameRoomPlaybackLayer = cc.Layer.extend({
         this.m_uiLocatorRoot = rootNode.getChildByName("icon_timer");
         this.m_QingChuPai = rootNode.getChildByName("player_01").getChildByName("qing_chu_pai");
         this.m_uiLocatorIcon = this.m_uiLocatorRoot.getChildByName("icon_locator");
+		this.m_uiCenterLogo = this.m_uiLocatorRoot.getChildByName("mahjong_title");
         this.m_uiLocatorAnimNode = this.m_uiLocatorRoot.getChildByName("anim");
         this.m_uiLocatorAnimNode.addChild(this.m_LocatorAnim.node);
         this.setLocator(0, 0);
         this.m_uiLocatorAnimNode.setVisible(false);
+		this.m_uiCenterLogo.y = -10;
+		this.m_uiCenterLogo.x = -50;
+		this.m_uiCenterLogo.setScale(0.7);
         //this.m_uiTimer = this.m_uiLocatorRoot.getChildByName("icon_number");
         this.m_IconVoiceTips = rootNode.getChildByName("voice_tips")
 
