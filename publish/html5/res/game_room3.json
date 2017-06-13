@@ -33570,11 +33570,6 @@
                           "Path": "res/room/mahjong_x1_nor.png",
                           "Plist": ""
                         },
-                        "PressedFileData": {
-                          "Type": "Normal",
-                          "Path": "res/room/mahjong_x1_pre.png",
-                          "Plist": ""
-                        },
                         "NormalFileData": {
                           "Type": "Normal",
                           "Path": "res/room/mahjong_x1_nor.png",
@@ -33929,7 +33924,6 @@
         "res/room/mahjong_wan_1.png",
         "res/room/mahjong_wan_9.png",
         "res/room/mahjong_x1_nor.png",
-        "res/room/mahjong_x1_pre.png",
         "res/room/mahjong_zhuang.png"
       ],
       "ctype": "GameFileData"

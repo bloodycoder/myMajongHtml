@@ -1493,7 +1493,8 @@ GameRoomPlaybackLayer = cc.Layer.extend({
             return;
 
         this.m_uiLocatorIcon.setVisible(true);
-        this.m_uiLocatorAnimNode.setVisible(true);
+        this.m_uiLocatorAnimNode.setVisible(false);
+		/*
         if (playerPosition == myselfPosition) {
             this.m_LocatorAnim.node.stopAllActions();
             this.m_LocatorAnim.action.gotoFrameAndPlay(g_ResCurrentPlayerTip[0].start, g_ResCurrentPlayerTip[0].end, true);
@@ -1504,7 +1505,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
             this.m_LocatorAnim.node.stopAllActions();
             this.m_LocatorAnim.action.gotoFrameAndPlay(g_ResCurrentPlayerTip[index].start, g_ResCurrentPlayerTip[index].end, true);
             this.m_LocatorAnim.node.runAction(this.m_LocatorAnim.action);
-        }
+        }*/
     },
 
     syncPlayerGameData: function (msgData) {
