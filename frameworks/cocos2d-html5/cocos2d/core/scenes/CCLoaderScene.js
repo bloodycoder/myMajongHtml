@@ -121,6 +121,9 @@ cc.LoaderScene = cc.Scene.extend({
             function (result, count, loadedCount) {
                 var percent = (loadedCount / count * 100) | 0;
                 percent = Math.min(percent, 100);
+				if(percent>=59){
+					percent = 99;
+				}
                 self._label.setString("回放数据已经读取"+percent+"%");
             }, function () {
                 if (self.cb)
