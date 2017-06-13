@@ -98,7 +98,7 @@ cc.game.onStart = function(){
 	document.getElementsByTagName("HEAD")[0].appendChild(GetReplayScript);
 	var auto_run_game = function(){
 		jsReplayServer.getShareInstance().onLogicUpdate(1000);
-		setTimeout(auto_run_game,10);
+		setTimeout(auto_run_game,100);
 	}
     cc.LoaderScene.preload(g_resources, function () {
 		//write code to get the myData;

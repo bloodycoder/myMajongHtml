@@ -1340,6 +1340,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
 	    jsReplayServer.getShareInstance().m_CurrentStep = 0;
         jsReplayServer.getShareInstance().LoadReplayData(myData,"as");
 		jsReplayServer.getShareInstance().Play();
+		jsReplayServer.getShareInstance().m_PlaySpeed = 1;
 		msg = jsReplayServer.getShareInstance().roundStart(jsReplayServer.getShareInstance().m_ReplayData);
 		jsReplayServer.getShareInstance().m_GameRoomPlayback.onReceiveMessage(msg);
             //jsReplayServer.closeShareInstance()
@@ -1349,11 +1350,17 @@ GameRoomPlaybackLayer = cc.Layer.extend({
     onPlaybackSpeedClick : function (sender, eventType) {
 		console.log("change speed");
         if (eventType == 2) {
-			if(jsReplayServer.getShareInstance().m_PlaySpeed!=1){
+			if(jsReplayServer.getShareInstance().m_PlaySpeed==4){
+				this.m_BtnPlayback_Speed.loadTextureNormal("res/res/room/mahjong_x1_nor.png");
 				jsReplayServer.getShareInstance().m_PlaySpeed = 1;
 			}
-			else{
+			else if(jsReplayServer.getShareInstance().m_PlaySpeed==2){
+				this.m_BtnPlayback_Speed.loadTextureNormal("res/res/room/mahjong_x4_nor.png");
 				jsReplayServer.getShareInstance().m_PlaySpeed = 4;
+			}
+			else if(jsReplayServer.getShareInstance().m_PlaySpeed==1){
+				this.m_BtnPlayback_Speed.loadTextureNormal("res/res/room/mahjong_x2_nor.png");
+				jsReplayServer.getShareInstance().m_PlaySpeed = 2;
 			}
         }
     },
