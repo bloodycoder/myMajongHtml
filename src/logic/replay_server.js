@@ -142,7 +142,6 @@ var jsReplayServer = {
                 this.m_PlayerData.reset();
             }
         }
-
         _instance.UserManager.CloneData = function () {
             console.log("CloneData");
             this.m_UserID = g_UserManager.m_UserID;
@@ -233,7 +232,6 @@ var jsReplayServer = {
             this.m_PlayerInfo = userInfo;
 			//calculate the steps        picard 
         };
-
         _instance.SetPlaySpeed = function (speed) {
             this.m_PlaySpeed = speed;
         };
@@ -253,7 +251,7 @@ var jsReplayServer = {
             }
 
             this.cleanup();
-
+			this.m_DoneStep = -1;
             this.m_GameRoomPlayback = new GameRoomPlaybackLayer();
             //g_RootLayer.addChild(this.m_GameRoomPlayback, 1000);   picard
 			cc.director.runScene(this.m_GameRoomPlayback);
@@ -673,7 +671,7 @@ var jsReplayServer = {
                         msg = this.roundStart(this.m_ReplayData);
                     }
                     else if (this.m_MessageQuene[index] == "RoundEnd") {
-                        this.playFinished();
+                        console.log("finished");
                         return;
                     }
                 }
@@ -685,14 +683,15 @@ var jsReplayServer = {
                 this.m_GameRoomPlayback.onReceiveMessage(msg);
             }
             else {
-                this.playFinished();
+				console.log("replay finish");
+                //this.playFinished();
             }
         };
 
         _instance.onLogicUpdate = function(deltaTime) {
             if (this.m_CurrentReplayStatus == ReplayStatusDef.Playing) {
                //if (this.m_DoneStep >= this.m_CurrentStep) { picard
-			   if(true){
+			   if(this.m_CurrentStep<this.m_MessageQuene.length){
                     var curTime = new Date().getTime();
                     if ((curTime - this.m_LastStepExecuteTime) >= (this.m_1XSpeed / this.m_PlaySpeed)) {
                         this.m_CurrentStep++;

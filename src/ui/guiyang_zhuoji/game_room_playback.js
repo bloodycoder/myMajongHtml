@@ -1337,13 +1337,24 @@ GameRoomPlaybackLayer = cc.Layer.extend({
     onPlaybackStopClick : function (sender, eventType) {
         if (eventType == 2) {
 			console.log("playbackStop is clicked");
+	    jsReplayServer.getShareInstance().m_CurrentStep = 0;
+        jsReplayServer.getShareInstance().LoadReplayData(myData,"as");
+		jsReplayServer.getShareInstance().Play();
+		msg = jsReplayServer.getShareInstance().roundStart(jsReplayServer.getShareInstance().m_ReplayData);
+		jsReplayServer.getShareInstance().m_GameRoomPlayback.onReceiveMessage(msg);
             //jsReplayServer.closeShareInstance()
         }
     },
 
     onPlaybackSpeedClick : function (sender, eventType) {
+		console.log("change speed");
         if (eventType == 2) {
-
+			if(jsReplayServer.getShareInstance().m_PlaySpeed!=1){
+				jsReplayServer.getShareInstance().m_PlaySpeed = 1;
+			}
+			else{
+				jsReplayServer.getShareInstance().m_PlaySpeed = 4;
+			}
         }
     },
 

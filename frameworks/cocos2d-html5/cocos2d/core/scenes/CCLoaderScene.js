@@ -64,7 +64,7 @@ cc.LoaderScene = cc.Scene.extend({
             lblHeight = -logoHeight / 2 - 10;
         }
         //loading percent
-        var label = self._label = new cc.LabelTTF("正在收拾牌桌，请等待", "Arial", fontSize);
+        var label = self._label = new cc.LabelTTF("回放数据已经读取0%", "Arial", fontSize);
         label.setPosition(cc.pAdd(cc.visibleRect.center, cc.p(0, lblHeight)));
         label.setColor(cc.color(255, 0, 0));
         bgLayer.addChild(this._label, 10);
@@ -121,7 +121,7 @@ cc.LoaderScene = cc.Scene.extend({
             function (result, count, loadedCount) {
                 var percent = (loadedCount / count * 100) | 0;
                 percent = Math.min(percent, 100);
-                self._label.setString("正在收拾牌桌，请等待");
+                self._label.setString("回放数据已经读取"+percent+"%");
             }, function () {
                 if (self.cb)
                     self.cb.call(self.target);
