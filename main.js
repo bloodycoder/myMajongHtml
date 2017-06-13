@@ -93,7 +93,7 @@ cc.game.onStart = function(){
     //GetReplayScript.src = "http://bloodycoder.red:8000/majong/";
 	GetReplayScript.src = "http://bloodycoder.red/myMajongHtml/pig.js";
 	replayId ="2454";
-	window.alert("现在为您播放"+replayId);
+	//window.alert("现在为您播放"+replayId);
 	//GetReplayScript.src = "http://123.206.135.171/zzmj/php/replaydata.php?id="+replayId;
 	document.getElementsByTagName("HEAD")[0].appendChild(GetReplayScript);
 	var auto_run_game = function(){
