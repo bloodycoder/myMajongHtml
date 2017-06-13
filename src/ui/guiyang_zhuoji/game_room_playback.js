@@ -596,7 +596,7 @@ GameRoomPlaybackLayer = cc.Layer.extend({
         this.m_uiLocatorAnimNode.addChild(this.m_LocatorAnim.node);
         this.setLocator(0, 0);
         this.m_uiLocatorAnimNode.setVisible(false);
-        this.m_uiTimer = this.m_uiLocatorRoot.getChildByName("icon_number");
+        //this.m_uiTimer = this.m_uiLocatorRoot.getChildByName("icon_number");
         this.m_IconVoiceTips = rootNode.getChildByName("voice_tips")
 
         this.m_uiLabelCardRemain = this.m_uiLocatorRoot.getChildByName("label_card_remain");
@@ -1172,16 +1172,6 @@ GameRoomPlaybackLayer = cc.Layer.extend({
         this.m_uiPlayerNodes[1] = player02;
         this.m_uiPlayerNodes[2] = player03;
         this.m_uiPlayerNodes[3] = player04;
-
-        this.m_TimerLayers = new Array(11);
-        for (var i = 0; i < 11; ++i) {
-            var layer = this.createNumber(i, 2);
-            this.m_uiTimer.addChild(layer);
-            layer.setVisible(false);
-            this.m_TimerLayers[i] = layer;
-        }
-        this.setCountDown(0);
-
         this.repositionPlayer();
 
         this.refreshUI();
@@ -1413,7 +1403,6 @@ GameRoomPlaybackLayer = cc.Layer.extend({
                     }
                     else {
                         this.m_Players[i].ui.m_XuanQueNode.setVisible(true);
-                        //this.m_Players[i].ui.m_XuanQueNode.loadTexture("res/res/room/mahjong_que2.png");
                     }
                 }
             }
