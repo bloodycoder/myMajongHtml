@@ -1557,7 +1557,7 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "res/animation/mahjong_choose/mahjong_choose_2_g.png",
+              "Path": "",
               "Plist": ""
             },
             "Scale9OriginX": 41,
@@ -1694,7 +1694,7 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "res/animation/mahjong_choose/mahjong_choose_3_g.png",
+              "Path": "",
               "Plist": ""
             },
             "Scale9OriginX": 41,
@@ -1786,7 +1786,7 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "res/animation/mahjong_choose/mahjong_choose_4_g.png",
+              "Path": "",
               "Plist": ""
             },
             "Scale9OriginX": 41,
@@ -1878,7 +1878,7 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "res/animation/mahjong_choose/mahjong_choose_5_g.png",
+              "Path": "",
               "Plist": ""
             },
             "Scale9OriginX": 41,
@@ -1930,10 +1930,6 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "res/animation/mahjong_choose/mahjong_choose_2_g.png",
-        "res/animation/mahjong_choose/mahjong_choose_3_g.png",
-        "res/animation/mahjong_choose/mahjong_choose_4_g.png",
-        "res/animation/mahjong_choose/mahjong_choose_5_g.png",
         "res/room/mahjong_choose_1.png",
         "res/room/mahjong_choose_2.png",
         "res/room/mahjong_choose_3.png",
