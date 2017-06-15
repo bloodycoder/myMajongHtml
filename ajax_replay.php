@@ -1,9 +1,4 @@
-<html>
-<body>
-
 <?php
-phpinfo();
+$ch = curl_init();
+echo("this is the infomation i get");
 ?>
-
-</body>
-</html>
